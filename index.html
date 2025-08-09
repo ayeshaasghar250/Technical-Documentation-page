@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>Web Development Guide</header>
+    <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+    <a class="nav-link" href="#CSS_Basics">CSS Basics</a>
+    <a class="nav-link" href="#JavaScript_Basics">JavaScript Basics</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+    <a class="nav-link" href="#Deployment">Deployment</a>
+  </nav>
+
+  <main id="main-doc">
+
+    <section class="main-section" id="HTML_Basics">
+      <header><h2>HTML Basics</h2></header>
+      <p>HTML stands for HyperText Markup Language, the standard for creating webpages.</p>
+      <p>It is made up of elements represented by tags.</p>
+      <p>Tags usually come in pairs, with opening and closing tags.</p>
+      <p>HTML describes the structure of web pages.</p>
+      <p>Here’s an example of HTML:</p>
+      <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+      <p>Some common HTML tags:</p>
+      <ul>
+        <li>&lt;p&gt; - Paragraph</li>
+        <li>&lt;h1&gt; to &lt;h6&gt; - Headings</li>
+        <li>&lt;a&gt; - Links</li>
+      </ul>
+      <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
+    </section>
+
+    <section class="main-section" id="CSS_Basics">
+      <header><h2>CSS Basics</h2></header>
+      <p>CSS stands for Cascading Style Sheets.</p>
+      <p>It is used to style HTML elements.</p>
+      <p>You can use inline, internal, or external CSS.</p>
+      <p>CSS uses selectors and properties.</p>
+      <p>Example CSS rule:</p>
+      <code>p { color: blue; }</code>
+      <p>Common CSS selectors:</p>
+      <ul>
+        <li>Element selector</li>
+        <li>Class selector</li>
+        <li>ID selector</li>
+      </ul>
+      <code>.title { font-size: 24px; }</code>
+    </section>
+
+    <section class="main-section" id="JavaScript_Basics">
+      <header><h2>JavaScript Basics</h2></header>
+      <p>JavaScript is a programming language for the web.</p>
+      <p>It can be used to make pages interactive.</p>
+      <p>You can write JS inside &lt;script&gt; tags or in an external file.</p>
+      <p>JavaScript uses variables, functions, and events.</p>
+      <p>Example function:</p>
+      <code>function greet() { alert('Hello!'); }</code>
+      <p>Common JavaScript data types:</p>
+      <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+      </ul>
+      <code>let x = 5;</code>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+      <header><h2>Responsive Design</h2></header>
+      <p>Responsive design ensures websites look good on all devices.</p>
+      <p>It uses flexible layouts and media queries.</p>
+      <p>CSS media queries apply styles based on device width.</p>
+      <p>Example media query:</p>
+      <code>@media (max-width: 600px) { body { font-size: 14px; } }</code>
+      <p>Key techniques:</p>
+      <ul>
+        <li>Fluid grids</li>
+        <li>Flexible images</li>
+        <li>Viewport meta tag</li>
+      </ul>
+      <code>img { max-width: 100%; height: auto; }</code>
+    </section>
+
+    <section class="main-section" id="Deployment">
+      <header><h2>Deployment</h2></header>
+      <p>Deployment is making your website live on the internet.</p>
+      <p>Common hosting platforms include GitHub Pages, Netlify, and Vercel.</p>
+      <p>Steps for deployment:</p>
+      <ul>
+        <li>Prepare your files</li>
+        <li>Choose a hosting platform</li>
+        <li>Upload or push your files</li>
+      </ul>
+      <p>Example GitHub Pages setup:</p>
+      <code>git push origin main</code>
+      <p>Once deployed, share your site’s link with others.</p>
+      <code>https://username.github.io/project-name</code>
+    </section>
+
+  </main>
+
+</body>
+</html>
